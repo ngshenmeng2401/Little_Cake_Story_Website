@@ -1,0 +1,18 @@
+.login-con{
+    margin-top: 100px;
+    position: relative;
+}
+
+.loginimg{
+    width: 660px;
+}
+
+.padding{
+    padding-top: 80px;
+}
+
+.forgetbtn{
+    position: absolute;
+    right: 0;
+    margin-right: 12px;
+}

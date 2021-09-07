@@ -1,0 +1,34 @@
+.footer-middle{
+    background: #212529;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    color: #fff;
+}
+.footer-bottom{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer ul li a{
+    color: rgba(109, 109, 109);
+}
+.footer ul li a:hover {
+    color: rgba(172, 172, 172);
+}
+.footer .title1{
+    font-weight: 600;
+}
+
+.footer .fontsize1{
+    font-size: 16px;
+}
+
+.footer .fontsize2{
+    font-size: 18px;
+}
+
+.footer .content1{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(172, 172, 172);
+}
