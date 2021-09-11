@@ -1,0 +1,42 @@
+body{
+    background: #F4F3E8;
+}
+
+.cart-con{
+
+    margin: 50px auto;
+}
+
+.th-bg-color{
+
+    background: #FCD636;
+}
+
+.img-col{
+
+    width: 150px;
+    height: 100px;
+}
+
+.btns button{
+
+    font-size:20px;
+    border: none;
+    background-color: transparent;
+    color: #fcb941;
+}
+.btns button:hover{
+
+    font-size:28px;
+    color: #fcb941;
+}
+
+.rating{
+    font-size: 14px;
+    color: #fcb941;
+}
+
+/* input[type=radio]{
+    width: 12px;
+    height: 12px;
+  } */

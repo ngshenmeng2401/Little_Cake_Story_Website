@@ -1,6 +1,15 @@
-.signup-con{
-    margin-top: 150px;
-    position: relative;
+body{
+    background: #F4F3E8;
+}
+
+.dropdown-btn-color{
+
+    background: #FCD636;
+}
+
+.dropdown-btn-color:hover{
+
+    background: #FEEDA4;
 }
 
 .signupimg{
@@ -8,4 +17,23 @@
 }
 .margin{
     margin-bottom: 1rem;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
 }

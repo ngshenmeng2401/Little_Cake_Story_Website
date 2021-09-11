@@ -1,0 +1,73 @@
+body{
+    background: #F4F3E8;
+}
+
+.product-list{
+
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+    width: 200px;
+    outline: none;
+    border-style: none;
+}
+
+.product-img-con{
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.dropdown-btn-color{
+
+    background: #FCD636;
+}
+
+.dropdown-menu{
+
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 12px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+
+    outline: none;
+    border-style: none;
+}
+
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941;
+}
+.product-img-con:hover .btns{
+    bottom: 0;
+}
+
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941!important;
+}
+
+.rating{
+    font-size: 13px;
+    color: #fcb941;
+}

@@ -3,3 +3,24 @@
     width: 50px;
     height: 50px;
 }
+
+.profileimg{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-bg-color{
+
+    background: #FCD636;
+}
+
+.nav-btn-color{
+
+    color: black;
+    border-color: black;
+}
+
+.nav-btn-color:hover{
+
+    background: #FEEDA4;
+}

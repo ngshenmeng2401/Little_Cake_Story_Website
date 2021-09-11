@@ -1,6 +1,9 @@
 .login-con{
-    margin-top: 100px;
     position: relative;
+}
+
+body{
+    background: #F4F3E8;
 }
 
 .loginimg{
@@ -15,4 +18,14 @@
     position: absolute;
     right: 0;
     margin-right: 12px;
+}
+
+.login-btn-color{
+
+    background: #FCD636;
+}
+
+.login-btn-color:hover{
+
+    background: #FEEDA4;
 }

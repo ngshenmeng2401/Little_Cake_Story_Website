@@ -1,6 +1,15 @@
+body{
+    background: #F4F3E8;
+}
+
+.profileimg{
+    width: 50px;
+    height: 50px;
+}
+
 .carousel-con{
 
-    width: 50rem; 
+    width: 60rem; 
     margin: 0 auto 3rem;
 }
 
@@ -24,6 +33,7 @@
 
 .product-con{
 
+    margin: 0 auto;
     max-width: 80%;
 }
 
@@ -37,6 +47,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .btns{
     position: absolute;
     left: 0;
@@ -44,6 +55,7 @@
     font-size: 14px;
     font-weight: 300;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 .btns button{
     border: none;
@@ -64,10 +76,38 @@
 .product-name:hover{
     color: #fcb941!important;
 }
-.product-price{
-    /* color: #fcb941; */
-}
 .rating{
     font-size: 13px;
     color: #fcb941;
+}
+
+.owl-prev{
+
+    display: none;
+    left: -30px;
+}
+
+.owl-next{
+
+    right: -30px;
+}
+
+.owl-next , .owl-prev{
+
+    position: absolute;
+    top: 90px;
+}
+
+.owl-next span, .owl-prev span{
+
+    outline: none;
+    border-style: none;
+    font-size: 50px;
+    color: gray;
+}
+
+.owl-theme .owl-nav .owl-prev span:hover,
+.owl-theme .owl-nav .owl-next span:hover{
+
+    color: #FCD636;
 }
