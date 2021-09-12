@@ -2,29 +2,10 @@ body{
     background: #F4F3E8;
 }
 
-.profileimg{
-    width: 50px;
-    height: 50px;
-}
-
 .carousel-con{
 
     width: 60rem; 
     margin: 0 auto 3rem;
-}
-
-.cateogry-img{
-
-    width: 50px;
-}
-
-.category-img-span{
-
-    margin: 0 auto;
-    width: 8rem;
-    height: 3.5rem;
-    background: #F6F192;
-    border-radius: 30px;
 }
 
 .cursor-pointer{
@@ -110,4 +91,41 @@ body{
 .owl-theme .owl-nav .owl-next span:hover{
 
     color: #FCD636;
+}
+
+.cateogry-con{
+
+    display: grid;
+    grid-gap: 0.6rem;
+    grid-template-areas: 
+        "pic1 pic3"
+        "pic2 pic4";
+}
+
+.pic1{
+    grid-area: pic1;
+}
+
+.pic2{
+    grid-area: pic2;
+}
+
+.pic3{
+    grid-area: pic3;
+}
+
+.pic4{
+    grid-area: pic4;
+}
+
+@media only screen and (max-width: 600px) {
+    .cateogry-con {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr;
+      grid-template-areas:
+        "pic1"
+        "pic2"
+        "pic3"
+        "pic4";
+    }
 }
